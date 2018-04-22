@@ -1,5 +1,5 @@
 {% extends 'music/base.html' %}
-{% block title %}Album Details{% endblock %}
+{% block title %}Album details for {{ album.album_title }}{% endblock %}
 
 {% block body %}
 
@@ -33,7 +33,7 @@
 
     </thead>
     <tbody>
-     
+
 
     {%  for song in songs %}
 
